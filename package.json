@@ -1,0 +1,15 @@
+{
+  "babel": {
+    "plugins": [
+      "@babel/plugin-proposal-decorators"
+    ]
+  },
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.35",
+    "@babel/core": "^7.0.0-beta.35",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.35"
+  },
+  "scripts": {
+    "build": "babel index.js"
+  }
+}
